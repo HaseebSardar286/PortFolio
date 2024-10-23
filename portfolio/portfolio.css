@@ -1,0 +1,339 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: linear-gradient(45deg, #0a0a0a, #15191f, #090c11);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 15px;
+    color: white;
+}
+.container
+{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+}
+.container .logo
+{
+    margin-right: 54%;
+    font-size: xx-large;
+    display: flex;
+    font-weight: 600;
+    font-family: algerian;
+    text-shadow: 2px 2px 15px yellow;
+}
+.logo:hover
+{
+    font-size: 33px;
+    margin-right: 53.6%;
+    margin-bottom: -1.5px;
+    cursor: pointer;
+}
+.container span
+{
+    color: yellow;
+}
+.innercontainer1 h1
+{
+    text-shadow: 2px 2px 15px yellow;
+}
+.container .links
+{
+    margin-left: 20px;
+}
+.container a
+{
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    font-size: 17px;
+    color: yellow;
+}
+.container1
+{
+    display: flex;
+    margin-top: 40px;
+}
+.container1 .innercontainer1
+{
+    margin-top: 80px;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.innercontainer1 h1
+{
+    font-size: 40px;
+    color: yellow;
+}
+.innercontainer2
+{
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+}
+.img
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 3px rgb(238, 14, 201);
+    margin-left: 50px;
+}
+.iconcontainer
+{
+    display: flex;
+}
+.iconcontainer .icons
+{
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.iconcontainer .icons:hover
+{
+    width: 43px;
+    height: 43px;
+    margin-bottom: -3px;
+}
+.innercontainer1 button
+{
+    margin-top: 70px;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px yellow;
+}
+.innercontainer1 button:hover
+{
+    background-color: yellow;
+    cursor: pointer;
+    width: 153px;
+    height: 47px;
+}
+.container2
+{
+    display: flex;
+}
+.heading
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    color: yellow;
+    text-shadow: 2px 2px 15px yellow;
+}
+.innercontainer3 img
+{
+    width: 330px;
+    height: 420px;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 30px;
+    box-shadow: 3px 2px 20px 3px white;
+}
+.innercontainer4
+{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.containerr2 .innercontainer4 .se
+{
+    color: yellow;
+}
+.innercontainer4 p
+{
+    margin-top: 30px;
+    width: 490px;
+}
+.innercontainer4 button
+{
+    margin-top: 70px;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px yellow;
+}
+.innercontainer4 button:hover
+{
+    background-color: yellow;
+    cursor: pointer;
+    width: 153px;
+    height: 47px;
+}
+.cont
+{
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.cont .projects
+{
+    margin-left: 20px;
+    width: 23%;
+    height: 250px;
+}
+.projects:hover
+{
+    margin-right: -12px;
+    width: 24%;
+    height: 252px;
+    margin-top: -4px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgb(238, 255, 0);
+}
+.cont video
+{
+    height: 250px;
+    width: 285px;
+}
+.cont h3
+{
+    font-weight: 500;
+    color: yellow;
+    margin-top: 15px;
+}
+.cont p
+{
+    margin-top: 20px;
+}
+.btn
+{
+    margin-left: 44%;
+    margin-top: 250px;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px yellow;
+}
+.btn:hover
+{
+    background-color: yellow;
+    cursor: pointer;
+    width: 153px;
+    height: 47px;
+}
+.box
+{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    width: 1000px;
+    height: 450px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 5px yellow;
+    background-color: rgb(52, 59, 59);
+    border-radius: 15px;
+}
+.box .skills
+{
+    display: flex;
+}
+.skills .icons
+{
+    width: 150px;
+    height: 150px;
+    margin-left: 130px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.contact
+{
+    margin-top: 10px;
+    display: flex;
+}
+.contact .contacts
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.contact .input
+{
+    font-size: large;
+    margin-bottom: 5px;
+}
+.contact input
+{
+    width: 500px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    box-shadow: 0px 0px 15px yellow;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.contact textarea
+{
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    box-shadow: 0px 0px 15px yellow;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.contact .touch
+{
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.touch h1
+{
+    color: yellow;
+    margin-bottom: 15px;
+}
+.touch p{
+    margin-bottom: 50px;
+    width: 500px;
+}
+.touch .git
+{
+    margin-top: 30px;
+    color: yellow;
+    font-size: larger;
+    font-weight: 600;
+}
+.contact button
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px yellow;
+}
+.contact button:hover
+{
+    background-color: yellow;
+    cursor: pointer;
+    width: 101%;
+    height: 47px;
+}
